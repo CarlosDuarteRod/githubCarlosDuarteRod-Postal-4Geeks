@@ -1,0 +1,61 @@
+body {
+	background: black;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+h1,
+p,
+input,
+button {
+	font-family: "Dancing Script", cursive;
+	font-family: "Ysabeau", sans-serif;
+}
+.postcard-header {
+	display: flex;
+	padding: 8px;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 100%;
+	margin: 0;
+	padding-top: 7px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+input {
+	border: none;
+	border-bottom: 1px solid rgb(174, 170, 170);
+}
+input::placeholder {
+	font-weight: bold;
+}
+.body-left p {
+	font-size: 16px;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: rgb(198, 198, 198);
+	padding: 2px 3px 5px 3px;
+	border: none;
+}
+p {
+	font-weight: bold;
+}
